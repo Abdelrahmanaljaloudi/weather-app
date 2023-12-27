@@ -10,7 +10,7 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .App {
-  background-image: url('./assets/daniel-ramirez-q4TfWtnz_xw-unsplash.jpg');
+  background-image: url('./assets/gLW51rD-weather-wallpapers.jpg');
   background-size: cover;
   background-position: bottom;
 height: 100vh;
@@ -19,10 +19,7 @@ height: 100vh;
 
 }
 
-.App.Warm{
-  background-image: url('./assets/daniel-ramirez-q4TfWtnz_xw-unsplash.jpg') ;
 
-}
 
 
 
