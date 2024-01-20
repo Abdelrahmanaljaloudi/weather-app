@@ -1,0 +1,60 @@
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.box {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #89857d;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(29, 29, 29, 0.9);
+  text-align: center;
+  background:#1a2129c2;
+ 
+}
+.box h1{
+padding-bottom: 10px;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.box label {
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+input[name="age"] {
+ text-align: center;
+  margin-bottom: 10px;
+}
+select {
+  width: 100%;;
+ }
+button {
+  width: 100%;
+  padding: 10px;
+  background-color:#474c48;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #010408;
+}
