@@ -14,9 +14,8 @@ const client = new MongoClient(url);
 
 app.use(express.static(path.join(__dirname, 'build')));
 
-// Define the root route
 app.get('/', function (req, res) {
-
+res.send('Hello from server ')
 });
 
 
@@ -43,7 +42,7 @@ app.get('/login', async (req, res) => {
   }
 });
 
-// Catch-all route to serve the LoginForm.js file for any other route
+
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, 'src', 'components', 'LoginForm.js'));
 });

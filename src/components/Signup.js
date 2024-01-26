@@ -9,7 +9,7 @@ function Signup() {
         name: '',
         email: '',
         age: '',
-        gender: 'male', // You can set a default value or leave it as an empty string
+        gender: 'male', 
         password: ''
       });
     
@@ -20,7 +20,7 @@ function Signup() {
     
       const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission logic here
+        
         console.log(formData);
       };
     

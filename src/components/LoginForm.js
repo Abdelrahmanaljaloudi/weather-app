@@ -18,12 +18,12 @@ function LoginForm() {
       console.log(response.data);
 
       if (response.data === "Success") {
-        // Use 'navigate' from 'react-router-dom' to redirect to '/weather'
+    
         navigate('/weather');
       }
     } catch (error) {
       console.error('Error during login:', error);
-      // Handle error (show a message, redirect to an error page, etc.)
+ 
     }
   };
 
